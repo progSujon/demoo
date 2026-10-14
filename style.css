@@ -1,4 +1,13 @@
-body{
-  color:'white',
-  background:'black'
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f7f6;
+    color: #333333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+}
+h1 {
+    color: #2c3e50;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 10px;
 }
