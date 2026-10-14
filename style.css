@@ -1,13 +1,77 @@
+/* পুরো পেজের বেসিক রিসেট এবং ব্যাকগ্রাউন্ড */
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #f4f7f6;
-    color: #333333;
-    line-height: 1.6;
+    background-color: #f0f2f5;
     margin: 0;
-    padding: 20px;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
-h1 {
-    color: #2c3e50;
-    border-bottom: 2px solid #3498db;
-    padding-bottom: 10px;
+
+/* প্রোফাইল কার্ডের ডিজাইন */
+.profile-card {
+    background-color: #ffffff;
+    max-width: 350px;
+    width: 100%;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    box-sizing: border-box;
 }
+
+/* অবতার ইমোজি সাইজ */
+.avatar {
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+
+/* নাম এবং পদবীর ডিজাইন */
+.profile-card h1 {
+    color: #1a1a1a;
+    font-size: 24px;
+    margin: 10px 0 5px 0;
+}
+
+.title {
+    color: #0076ff;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0 0 15px 0;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* বায়ো বা ডেসক্রিপশন */
+.bio {
+    color: #666666;
+    font-size: 14px;
+    line-height: 1.5;
+    margin-bottom: 25px;
+}
+
+/* সোশ্যাল বাটনগুলোর ডিজাইন */
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.btn {
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #24292e;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 500;
+    transition: background-color 0.3s ease;
+}
+
+/* বাটনের হোভার ইফেক্ট */
+.btn:hover {
+    background-color: #0076ff;
+}
+
